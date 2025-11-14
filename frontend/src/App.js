@@ -20,7 +20,8 @@ function App() {
     setResult(null);
 
     try {
-      const response = await fetch('http://localhost:5000/compare_code', {
+      const API_URL = process.env.REACT_APP_API_URL || 'http://localhost:5000';
+const response = await fetch(`${API_URL}/compare_code`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ code1, code2 }),
