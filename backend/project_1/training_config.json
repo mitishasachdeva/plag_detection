@@ -1,0 +1,7 @@
+{
+    "model_name": "microsoft/codebert-base",
+    "epochs_trained": 8,
+    "batch_size": 16,
+    "learning_rate": 2e-05,
+    "weight_decay": 0.01
+}
