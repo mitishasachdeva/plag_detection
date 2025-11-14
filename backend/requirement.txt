@@ -3,3 +3,6 @@ flask_cors
 transformer
 gunicorn
 torch
+python-dotenv
+scikit-learn
+numpy
